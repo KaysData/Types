@@ -8,4 +8,5 @@ It's been renamed Types for Time Series in Python. Originally tswge stood for Ti
 The translation of tswge is being done with permission from Bivin Sadler and Wayne Woodward. 
 
 ![The image of the cover of "Applied Time Series Analysis with R" by Wayne A. Woodward, Henry L. Gray, and Alan C. Elliott.](Applied-Time-Series-Analysis-with-R-cover.jpg)
+
 Tswge was written accompanying the text "Applied Time Series Analysis with R" by Wayne A. Woodward, Henry L. Gray, and Alan C. Elliott. 
