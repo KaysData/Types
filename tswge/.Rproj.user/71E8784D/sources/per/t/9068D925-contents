@@ -1,0 +1,286 @@
+aic.wge                 ARMA Model Identification
+aic5.wge                Return top 5 AIC, AICC, or BIC picks
+airline                 Classical Airline Passenger Data
+airlog                  Natural log of airline data
+appy                    Non-perforated appendicitis data shown in
+                        Figure 10.8 (solid line) in Applied Time Series
+                        Analysis with R, second edition by Woodward,
+                        Gray, and Elliott
+artrans.wge             Perform Ar transformations
+backcast.wge            Calculate backcast residuals
+bat                     Bat echolocation signal shown in Figure 13.11a
+                        in Applied Time Series Analysis with R, second
+                        edition by Woodward, Gray, and Elliott
+bumps16                 16 point bumps signal
+bumps256                256 point bumps signal
+butterworth.wge         Perform Butterworth Filter
+cement                  Cement data shown in Figure 3.30a in Applied
+                        Time Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+chirp                   Chirp data shown in Figure 12.2a in Applied
+                        Time Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+doppler                 Doppler Data
+doppler2                Doppler signal in Figure 13.10 in Applied Time
+                        Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+dow.rate                DOW Daily Rate of Return Data
+dow1000                 Dow Jones daily rate of return data for 1000
+                        days
+dowjones2014            Dow Jones daily averages for 2014
+eco.cd6                 6-month rates
+eco.corp.bond           Corporate bond rates
+eco.mort30              30 year mortgage rates
+est.ar.wge              Estimate parameters of an AR(p) model
+est.arma.wge            Function to calculate ML estimates of
+                        parameters of stationary ARMA models
+est.farma.wge           Estimate the parameters of a FARMA model.
+est.garma.wge           Estimate the parameters of a GARMA model.
+est.glambda.wge         Estimate the value of lambda and offset to
+                        produce a stationary dual.
+factor.comp.wge         Create a factor table and AR components for an
+                        AR realization
+factor.wge              Produce factor table for a kth order AR or MA
+                        model
+fig1.10a                Simulated data shown in Figure 1.10a in Applied
+                        Time Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+fig1.10b                Simulated data shown in Figure 1.10b in Applied
+                        Time Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+fig1.10c                Simulated data in Figure 1.10c in Applied Time
+                        Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+fig1.10d                Simulated data in Figure 1.10d in Applied Time
+                        Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+fig1.16a                Simulated data for Figure 1.16a in Applied Time
+                        Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+fig1.21a                Simulated shown in Figure 1.21a of Woodward,
+                        Gray, and Elliott text
+fig1.22a                White noise data
+fig1.5                  Simulated data shown in Figure 1.5 in Applied
+                        Time Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+fig10.11x               Simulated data shown in Figure 10.11 (solid
+                        line) in Applied Time Series Analysis with R,
+                        second edition by Woodward, Gray, and Elliott
+fig10.11y               Simulated data shown in Figure 10.11 (dashed
+                        line) in Applied Time Series Analysis with R,
+                        second edition by Woodward, Gray, and Elliott
+fig10.1bond             Data for Figure 10.1b in Applied Time Series
+                        Analysis with R, second edition by Woodward,
+                        Gray, and Elliott
+fig10.1cd               Data shown in Figure 10.1a in Applied Time
+                        Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+fig10.1mort             Data shown in Figure 10.1c in Applied Time
+                        Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+fig10.3x1               Variable X1 for the bivariate realization shown
+                        in Figure 10.3"
+fig10.3x2               Variable X2 for the bivariate realization shown
+                        in Figure 10.3"
+fig11.12                Data shown in Figure 11.12a in Applied Time
+                        Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+fig11.4a                Data shown in Figure 11.4a in Applied Time
+                        Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+fig12.1a                Simulated data with two frequencies shown in
+                        Figure 12.1a in Applied Time Series Analysis
+                        with R, second edition by Woodward, Gray, and
+                        Elliott
+fig12.1b                Simulated data with two frequencies shown in
+                        Figure 12.1b in Applied Time Series Analysis
+                        with R, second edition by Woodward, Gray, and
+                        Elliott
+fig13.18a               Simulated data shown in Figure 3.18a in Applied
+                        Time Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+fig13.2c                TVF data shown in Figure 13.2c in Applied Time
+                        Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+fig3.10d                AR(2) Realization (1-.95)^2X(t)=a(t)
+fig3.16a                Figure 3.16a in "Applied Time Series Analysis
+                        with R, 2nd edition" by Woodward, Gray, and
+                        Elliott
+fig3.18a                Figure 3.18a in "Applied Time Series Analysis
+                        with R, 2nd edition" by Woodward, Gray, and
+                        Elliott
+fig3.24a                ARMA(2,1) realization
+fig3.29a                Simulated data shown in Figure 3.29a in Applied
+                        Time Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+fig4.8a                 Gaussian White Noise
+fig5.3c                 Data from Figure 5.3c in "Applied Time Series
+                        Analysis with R, 2nd edition" by Woodward,
+                        Gray, and Elliott
+fig6.11a                Cyclical Data
+fig6.1nf                Data in Figure 6.1 without the forecasts
+fig6.2nf                Data in Figure 6.2 without the forecasts
+fig6.5nf                Data in Figure 6.5 without the forecasts
+fig6.6nf                Data in Figure 6.6 without the forecasts
+fig6.7nf                Data in Figure 6.2 without the forecasts
+fig6.8nf                Simulated seasonal data with s=12
+fig8.11a                Data for Figure 8.11a in Applied Time Series
+                        Analysis with R, second edition by Woodward,
+                        Gray, and Elliott
+fig8.4a                 Data for Figure 8.4a in Applied time series
+                        Analysis with R, second edition by Woodward,
+                        Gray, and Elliott
+fig8.6a                 Data for Figure 8.6a in Applied time series
+                        Analysis with R, second edition by Woodward,
+                        Gray, and Elliott
+fig8.8a                 Data for Figure 8.8a in Applied time series
+                        Analysis with R, second edition by Woodward,
+                        Gray, and Elliott
+flu                     Influenza data shown in Figure 10.8 (dotted
+                        line)
+fore.arma.wge           Forecast from known model
+fore.aruma.wge          Function for forecasting from known model which
+                        may have (1-B)^d, seasonal, and/or other
+                        nonstationary factors
+fore.farma.wge          Forecast using a FARMA model
+fore.garma.wge          Forecast using a GARMA model
+fore.glambda.wge        Forecast using a G(lambda) model
+fore.sigplusnoise.wge   Forecasting signal plus noise models
+freeze                  Minimum temperature data
+freight                 Freight data
+gegenb.wge              Calculates Gegenbauer polynomials
+gen.arch.wge            Generate a realization from an ARCH(q0) model
+gen.arima.wge           Function to generate an ARIMA (or ARMA)
+                        realization
+gen.arma.wge            Function to generate an ARMA realization
+gen.aruma.wge           Function to generate an ARUMA (or ARMA or
+                        ARIMA) realization
+gen.garch.wge           Generate a realization from a GARCH(p0,q0)
+                        model
+gen.garma.wge           Function to generate a GARMA realization
+gen.geg.wge             Function to generate a Gegenbauer realization
+gen.glambda.wge         Function to generate a g(lambda) realization
+gen.sigplusnoise.wge    Generate data from a signal-plus-noise model
+global.temp             Global Temperature Data: 1850-2009
+hadley                  Global temperature data
+hilbert.wge             Function to calculate the Hilbert
+                        transformation of a given real valued
+                        signal(even length)
+is.glambda.wge          Instantaneous spectrum
+is.sample.wge           Sample instantaneous spectrum based on
+                        periodogram
+kalman.miss.wge         Kalman filter for simple signal plus noise
+                        model with missing data
+kalman.wge              Kalman filter for simple signal plus noise
+                        model
+kingkong                King Kong Eats Grass
+lavon                   Lavon lake water levels
+lavon15                 Lavon Lake Levels to September 30, 2015
+ljung.wge               Ljung-Box Test
+llynx                   Log (base 10) of lynx data
+lynx                    Lynx data
+ma2.table7.1            Simulated MA(2) data
+macoef.geg.wge          Calculate coefficients of the general linear
+                        process form of a Gegenbauer process
+mass.mountain           Massachusettts Mountain Earthquake Data
+mm.eq                   Massachusetts Mountain Earthquake data shown in
+                        Figure 13.13a in Applied Time Series Analysis
+                        with R, second edition by Woodward, Gray, and
+                        Elliott
+mult.wge                Multiply Factors
+nbumps256               256 noisy bumps signal
+nile.min                Annual minimal water levels of Nile river
+noctula                 Nyctalus noctula echolocation data
+parzen.wge              Smoothed Periodogram using Parzen Window
+patemp                  Pennsylvania average monthly temperatures
+period.wge              Calculate the periodogram
+plotts.dwt.wge          Plots Discrete Wavelet Transform (DWT)
+plotts.mra.wge          Plots MRA plot)
+plotts.parzen.wge       Calculate and plot the periodogram and Parzen
+                        window estimates with differing trunctaion
+                        points
+plotts.sample.wge       Plot Data, Sample Autocorrelations,
+                        Periodogram, and Parzen Spectral Estimate
+plotts.true.wge         Plot of generated data, true autocorrelations
+                        and true spectral density for ARMA model
+plotts.wge              Plot a time series realization
+prob10.4                Data matrix for Problem 10.4 in "Applied Time
+                        Series Analysis with R, 2nd edition" by
+                        Woodward, Gray, and Elliott
+prob10.6x               Data for Problem 10.6 in Applied Time Series
+                        Analysis with R, second edition by Woodward,
+                        Gray, and Elliott
+prob10.6y               Simulated observed data for Problem 10.6 in
+                        Applied Time Series Analysis with R, second
+                        edition by Woodward, Gray, and Elliott
+prob10.7x               Data for Problem 10.7 in Applied Time Series
+                        Analysis with R, second edition by Woodward,
+                        Gray, and Elliott
+prob10.7y               Simulated observed data for Problem 10.6 in
+                        Applied Time Series Analysis with R, second
+                        edition by Woodward, Gray, and Elliott
+prob11.5                Data for Problem 11.5 in Applied Time Series
+                        Analysis with R, second edition by Woodward,
+                        Gray, and Elliott
+prob12.1c               Data for Problem 12.1c and 12.3c in Applied
+                        Time Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+prob12.3a               Data for Problem 12.3a in Applied Time Series
+                        Analysis with R, second edition by Woodward,
+                        Gray, and Elliott
+prob12.3b               Data for Problem 12.3b in Applied Time Series
+                        Analysis with R, second edition by Woodward,
+                        Gray, and Elliott
+prob12.6c               Data set for Problem 12.6(C) in Applied Time
+                        Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+prob13.2                Data for Problem 13.2 in Applied Time Series
+                        Analysis with R, second edition by Woodward,
+                        Gray, and Elliott
+prob8.1a                Data for Problem 8.1 in "Applied Time Series
+                        Analysis with R, 2nd edition" by Woodward,
+                        Gray, and Elliott
+prob8.1b                Data for Problem 8.1 in "Applied Time Series
+                        Analysis with R, 2nd edition" by Woodward,
+                        Gray, and Elliott
+prob8.1c                Data for Problem 8.1 in "Applied Time Series
+                        Analysis with R, 2nd edition" by Woodward,
+                        Gray, and Elliott
+prob8.1d                Data for Problem 8.1 in "Applied Time Series
+                        Analysis with R, 2nd edition" by Woodward,
+                        Gray, and Elliott
+prob9.6c1               Data set 1 for Problem 6.1c
+prob9.6c2               Data set 2 for Problem 6.1c
+prob9.6c3               Data set 3 for Problem 6.1c
+prob9.6c4               Data set 4 for Problem 6.1c
+psi.weights.wge         Calculate psi weights for an ARMA model
+ss08                    Sunspot Data
+ss08.1850               Sunspot data from 1850 through 2008 for
+                        matching with global temperature data (hadley)
+starwort.ex             Starwort Explosion data shown in Figure 13.13a
+                        in Applied Time Series Analysis with R, second
+                        edition by Woodward, Gray, and Elliott
+sunspot.classic         Classic Sunspot Data: 1749-1924
+table10.1.noise         Noise related to data set, the first 5 points
+                        of which are shown in Table 10.1 in Applied
+                        Time Series Analysis with R, second edition by
+                        Woodward, Gray, and Elliott
+table10.1.signal        Underlying, unobservable signal (X(t), the
+                        first 5 points of which are shown in Table 10.1
+                        in Applied Time Series Analysis with R, second
+                        edition by Woodward, Gray, and Elliott
+table7.1                MA(2) data for Table 7.1
+trans.to.dual.wge       Transforms TVF data set to a dual data set
+trans.to.original.wge   Transforms dual data set back to original time
+                        scale
+true.arma.aut.wge       True ARMA autocorrelations
+true.arma.spec.wge      True ARMA Spectral Density
+true.farma.aut.wge      True FARMA autocorrelations
+true.garma.aut.wge      True GARMA autocorrelations
+tswge-package           Time Series package for Woodward, Gray, and
+                        Elliott text
+wages                   Daily wages in Pounds from 1260 to 1944 for
+                        England
+whale                   Whale click data
+wtcrude                 West Texas Intermediate Crude Oil Prices
+wv.wge                  Function to calculate Wigner Ville spectrum

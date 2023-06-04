@@ -1,0 +1,44 @@
+Applied Time Series Analysis 
+Documentation for package ‘tswge’ version 1.0.0
+
+tswge-package	Time Series package for Woodward, Gray, and Elliott text
+tswge	Time Series package for Woodward, Gray, and Elliott text
+-- A --
+aic.wge	ARMA Model Identification
+aic5.wge	Return top 5 AIC, AICC, or BIC picks
+artrans.wge	Perform Ar transformations
+-- B --
+backcast.wge	Calculate backcast residuals
+butterworth.wge	Perform Butterworth Filter
+-- E --
+est.ar.wge	Estimate parameters of an AR(p) model
+est.arma.wge	Function to calculate ML estimates of parameters of stationary ARMA models
+-- F --
+factor.comp.wge	Create a factor table and AR components for an AR realization
+factor.wge	Produce factor table for a kth order AR or MA model
+fore.arma.wge	Forecast from known model
+fore.aruma.wge	Function for forecasting from known model which may have (1-B)^d, seasonal, and/or other nonstationary factors
+fore.sigplusnoise.wge	Forecasting signal plus noise models
+-- G --
+gen.arima.wge	Function to generate an ARIMA (or ARMA) realization
+gen.arma.wge	Function to generate an ARMA realization
+gen.aruma.wge	Function to generate an ARUMA (or ARMA or ARIMA) realization
+gen.sigplusnoise.wge	Generate data from a signal-plus-noise model
+-- I --
+is.glambda.wge	Instantaneous spectrum
+is.sample.wge	Sample instantaneous spectrum based on periodogram
+-- L --
+ljung.wge	Ljung-Box Test
+-- P --
+parzen.wge	Smoothed Periodogram using Parzen Window
+period.wge	Calculate the periodogram
+plotts.dwt.wge	Plots Discrete Wavelet Transform (DWT)
+plotts.mra.wge	Plots MRA plot)
+plotts.parzen.wge	Calculate and plot the periodogram and Parzen window estimates with differing trunctaion points
+plotts.sample.wge	Plot Data, Sample Autocorrelations, Periodogram, and Parzen Spectral Estimate
+plotts.true.wge	Plot of generated data, true autocorrelations and true spectral density for ARMA model
+plotts.wge	Plot a time series realization
+psi.weights.wge	Calculate psi weights for an ARMA model
+-- T --
+true.arma.aut.wge	True ARMA autocorrelations
+true.arma.spec.wge	True ARMA Spectral Density

@@ -1,0 +1,81 @@
+A
+
+pplied Time Series Analysis [R logo]
+[Up] [Top]
+Documentation for package ‘tswge’ version 1.0.0
+DESCRIPTION file.
+Help Pages
+A B C D E F G H I K L M N P S T W
+
+tswge-package	Time Series package for Woodward, Gray, and Elliott text
+tswge	Time Series package for Woodward, Gray, and Elliott text
+-- A --
+aic.wge	ARMA Model Identification
+aic5.wge	Return top 5 AIC, AICC, or BIC picks
+artrans.wge	Perform Ar transformations
+-- B --
+backcast.wge	Calculate backcast residuals
+butterworth.wge	Perform Butterworth Filter
+-- E --
+eco.cd6	6-month rates
+eco.corp.bond	Corporate bond rates
+eco.mort30	30 year mortgage rates
+est.ar.wge	Estimate parameters of an AR(p) model
+est.arma.wge	Function to calculate ML estimates of parameters of stationary ARMA models
+est.farma.wge	Estimate the parameters of a FARMA model.
+est.garma.wge	Estimate the parameters of a GARMA model.
+est.glambda.wge	Estimate the value of lambda and offset to produce a stationary dual.
+-- F --
+factor.comp.wge	Create a factor table and AR components for an AR realization
+factor.wge	Produce factor table for a kth order AR or MA model
+fore.arma.wge	Forecast from known model
+fore.aruma.wge	Function for forecasting from known model which may have (1-B)^d, seasonal, and/or other nonstationary factors
+fore.farma.wge	Forecast using a FARMA model
+fore.garma.wge	Forecast using a GARMA model
+fore.glambda.wge	Forecast using a G(lambda) model
+fore.sigplusnoise.wge	Forecasting signal plus noise models
+-- G --
+gegenb.wge	Calculates Gegenbauer polynomials
+gen.arch.wge	Generate a realization from an ARCH(q0) model
+gen.arima.wge	Function to generate an ARIMA (or ARMA) realization
+gen.arma.wge	Function to generate an ARMA realization
+gen.aruma.wge	Function to generate an ARUMA (or ARMA or ARIMA) realization
+gen.garch.wge	Generate a realization from a GARCH(p0,q0) model
+gen.garma.wge	Function to generate a GARMA realization
+gen.geg.wge	Function to generate a Gegenbauer realization
+gen.glambda.wge	Function to generate a g(lambda) realization
+gen.sigplusnoise.wge	Generate data from a signal-plus-noise model
+-- H --
+hilbert.wge	Function to calculate the Hilbert transformation of a given real valued signal(even length)
+-- I --
+is.glambda.wge	Instantaneous spectrum
+is.sample.wge	Sample instantaneous spectrum based on periodogram
+-- K --
+kalman.miss.wge	Kalman filter for simple signal plus noise model with missing data
+kalman.wge	Kalman filter for simple signal plus noise model
+-- L --
+ljung.wge	Ljung-Box Test
+-- M --
+ma2.table7.1	Simulated MA(2) data
+macoef.geg.wge	Calculate coefficients of the general linear process form of a Gegenbauer process
+mult.wge	Multiply Factors
+-- P --
+parzen.wge	Smoothed Periodogram using Parzen Window
+period.wge	Calculate the periodogram
+plotts.dwt.wge	Plots Discrete Wavelet Transform (DWT)
+plotts.mra.wge	Plots MRA plot)
+plotts.parzen.wge	Calculate and plot the periodogram and Parzen window estimates with differing trunctaion points
+plotts.sample.wge	Plot Data, Sample Autocorrelations, Periodogram, and Parzen Spectral Estimate
+plotts.true.wge	Plot of generated data, true autocorrelations and true spectral density for ARMA model
+plotts.wge	Plot a time series realization
+psi.weights.wge	Calculate psi weights for an ARMA model
+-- T --
+trans.to.dual.wge	Transforms TVF data set to a dual data set
+trans.to.original.wge	Transforms dual data set back to original time scale
+true.arma.aut.wge	True ARMA autocorrelations
+true.arma.spec.wge	True ARMA Spectral Density
+true.farma.aut.wge	True FARMA autocorrelations
+true.garma.aut.wge	True GARMA autocorrelations
+
+-- W --
+wv.wge	Function to calculate Wigner Ville spectrum

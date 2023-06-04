@@ -1,0 +1,41 @@
+import numpy as np
+
+def ARMAtoMA(ar_params, ma_params, lags):
+    """
+    Convert ARMA model parameters to MA model parameters.
+    
+    Parameters:
+    ar_params (ndarray): Coefficients of the autoregressive (AR) terms.
+    ma_params (ndarray): Coefficients of the moving average (MA) terms.
+    lags (int): Number of lags for the MA model.
+    
+    Returns:
+    ma_coeffs (ndarray): Coefficients of the equivalent MA model.
+    """
+    p = len(ar_params)
+    q = len(ma_params)
+    max_lag = max(p, q+lags)
+    ma_coeffs = np.zeros(max_lag)
+    
+    # Set initial values for the recursion
+    ma_coeffs[0] = 1
+    ma_coeffs[1:q+1] = ma_params
+    
+    for k in range(1, lags+1):
+        sum_term = 0
+        
+        # Compute the summation term
+        for j in range(1, min(k, q)+1):
+            sum_term += ma_coeffs[k-j] * ar_params[j-1]
+        
+        ma_coeffs[k] = -sum_term
+    
+    return ma_coeffs[:lags+1]
+
+# Example usage
+ar_params = np.array([0.2, -0.4])
+ma_params = np.array([0.5, 0.3])
+lags = 5
+
+ma_coeffs = ARMAtoMA(ar_params, ma_params, lags)
+print("MA coefficients:", ma_coeffs)
